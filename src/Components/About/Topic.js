@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Topic = (props) => {
+const Topic = (match) => {
     return (
         <h2>{match.params.topic}</h2>
     )
